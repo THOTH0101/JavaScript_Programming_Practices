@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+.display-board {
+    font-size: 40px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+}
+
+.move-dialog {
+    font-size: 20px;
+}
+
+.move-input {
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.play-button {
+    background-color: darkgreen;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 9px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.restart-button {
+    background-color: darkred;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 9px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

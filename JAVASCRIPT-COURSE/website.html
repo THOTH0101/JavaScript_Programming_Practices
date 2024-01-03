@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Buttons</title>
+    <style>
+      .yellow-button {
+        background-color: yellow;
+      }
+      .orange-button {
+        background-color: orange;
+      }
+    </style>
+  </header>
+  <body>
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price: $7.99</p>
+    <button class="yellow-button" onclick="clickAdd()">Add to cart</button>
+    <button class="orange-button" onclick="clickBuy()">Buy now</button>
+    <script>
+      console.log('Welcome!');
+
+      function clickAdd() {
+        alert('Added');
+      }
+
+      function clickBuy() {
+        console.log('Loading...');
+        alert('Purchased');
+      }
+    </script>
+  </body>
+</html>

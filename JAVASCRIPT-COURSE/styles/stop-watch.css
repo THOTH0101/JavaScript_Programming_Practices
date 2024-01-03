@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.display-timer {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.reset-button {
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.start-button {
+    font-size: 25px;
+    background-color: rgb(9, 15, 1);
+    color: green;
+    height: 100px;
+    width: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.stop-button {
+    font-size: 25px;
+    background-color: rgb(43, 0, 0);
+    color: red;
+    height: 100px;
+    width: 100px;
+    border-color: grey;
+    border-radius: 50px;
+    cursor: pointer;
+}

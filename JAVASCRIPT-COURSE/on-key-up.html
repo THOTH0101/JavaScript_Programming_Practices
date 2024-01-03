@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>On key up</title>
+  </head>
+  <body>
+    <input class="js-input" placeholder="Type Something" onkeyup="
+      handleKeyUp(event);  
+    ">
+
+    <p class="js-output"></p>
+    <script>
+      const innerInput = document.querySelector('.js-input');
+      const innerOutput = document.querySelector('.js-output');
+
+      function handleKeyUp(event) {
+        if (event.key) {
+          innerOutput.innerHTML = innerInput.value;
+        }
+      }
+    </script>
+  </body>
+</html>
